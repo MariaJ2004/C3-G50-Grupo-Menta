@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+	    <title>Consultar o Eliminar paciente</title>
+	    <link rel="stylesheet" type="text/css" href="../stylesheet/consultarEliminarPaciente.css">
+	    <link rel="shortcut icon" type="image/png" href="../images/VACCINATIONCONTROLSYSTEM7.png">
+    </head>
+    <body>
+        <div class="header_">
+            <div class="divLeft">
+               <a href="../View/index.html" target="_parent" style="text-decoration: none;"><img src="../images/VACCINATIONCONTROLSYSTEM7.png" alt="Logo_header_vc" id="logoHeaderR" align="right"></a> 
+                <h2 id="titleMain">Consultar o eliminar paciente</h2>
+            </div>
+        </div>
+        <section id="formularios" style="width: 100%;height:780px;display:flex;">
+<div class="frmConsultar" style="position: relative; height:394px;width: 446px;top:300px;left:50px;">
+<center>
+    <form action="#" id="Regform">
+<table border="0">
+<tr>
+    <td align="center">
+        <div class="input-container">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <label for="identificacion" id="lbls">No. Identificación:</label><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="input-field" type="number" placeholder="Número de Documento" name="identificacion" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           </div>
+    </td>
+</tr>
+<tr>
+    <td colspan="2" align="center">
+            <button type="submit" style="padding:15px 30px;background-color: #10B4B7; color:white; font-family: Yaldevi Colombo SemiBold Regular;font-size: 30px; border-radius: 50px;border:0;">CONSULTAR</button>
+    </td>
+</tr>
+</table>
+    </form>
+</center>
+</div>
+<div class="frmConsultar_" style="position: relative; height:394px;width: 525px;top:200px;left:590px;">
+    <form id="Regform" action="#">
+        <table border="0">
+            <tr>
+                <td>
+                 <div class="input-container">
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <label for="nombres" id="lbls">Nombre (s):</label><br>
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="input-field" type="text" placeholder="Nombre (s) del paciente" name="nombres" readonly>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>
+                    
+                </td>
+                
+                <td>
+                 <div class="input-container">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="apellidos" id="lbls">Apellido (s):</label><br>          
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   <input class="input-field" type="text" placeholder="Apellido (s) del paciente" name="apellidos" readonly>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>
+                </td>
+            </tr>
+            <tr>
+             <td>
+              <div class="input-container">
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <label for="identificacion" id="lbls">No. Identificación:</label><br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="input-field" type="number" placeholder="Número de Documento" name="identificacion" readonly>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 </div>
+             </td> 
+                <td>
+                    <div class="input-container">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <label for="pais" id="lbls">País:</label><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="input-field" type="text" placeholder="País..." name="pais" readonly>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                       </div>
+                       
+                   </td>
+         </tr>
+         <tr>
+             <td>
+              <div class="input-container">
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="departamento" id="lbls">Departamento:</label><br>          
+                  &nbsp;&nbsp;&nbsp;<input class="input-field" type="text" placeholder="Departamento..." name="departamento" readonly>&nbsp;&nbsp;&nbsp;
+                 </div>
+             </td>
+             <td>
+                <div class="input-container">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <label for="ciudad" id="lbls">Ciudad:</label><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="input-field" type="text" placeholder="Ciudad..." name="ciudad" readonly>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   </div>
+               </td> 
+         </tr>
+         <tr>
+             <td>
+                <div class="input-container">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="tipoFarm" id="lbls">Farmacéutica:</label><br>
+                    &nbsp;&nbsp;&nbsp;<input class="input-field" type="text" placeholder="Farmacéutica.." name="tipoFarm" readonly>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   </div>
+               </td> 
+               <td>
+                <div class="input-container">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <label for="dosis" id="lbls">Cantidad dosis:</label><br>
+               &nbsp;&nbsp;&nbsp;&nbsp;<button name="dosis1" id="d1" class="input-field" style="padding:5px 5px;background-color:white; color:#B1AEAE; font-family: Yaldevi Colombo SemiBold Regular;font-size: 20px; border-radius: 364px;border:0;height:36px;width: 36px;" aria-readonly="true">1</button>&nbsp;&nbsp;
+               &nbsp;&nbsp;&nbsp;&nbsp;<button name="dosis2" id="d2" class="input-field" style="padding:5px 5px;background-color:white; color:#B1AEAE; font-family: Yaldevi Colombo SemiBold Regular;font-size: 20px; border-radius: 364px;border:0;height:36px;width: 36px;">2</button>&nbsp;&nbsp;
+               &nbsp;&nbsp;&nbsp;&nbsp;<button name="dosis3" id="d3" class="input-field" style="padding:5px 5px;background-color:white; color:#B1AEAE; font-family: Yaldevi Colombo SemiBold Regular;font-size: 20px; border-radius: 364px;border:0;height:36px;width: 36px;">3</button>
+                   </div>
+               </td> 
+         </tr>
+         <tr>
+             <td>
+              <div class="input-container">
+                  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<label for="fechaNa" id="lbls">Fecha de vacunación:</label><br>          
+                  &nbsp;&nbsp;&nbsp;<input class="input-field" type="date" placeholder="fecha nacimiento..." name="fechaNa" readonly>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 </div>
+             </td>
+             <td>
+                <div class="input-container">
+                    &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <label for="pVac" id="lbls">Puesto de vacunación:</label><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="input-field" type="text" placeholder="Puesto de vacunación..." name="pVac" readonly>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   </div>
+            </td>
+         </tr>
+         <tr>
+             <td colspan="2" align="center">
+                     <button type="submit" style="padding:15px 30px;background-color: #10B4B7; color:white; font-family: Yaldevi Colombo SemiBold Regular;font-size: 30px; border-radius: 50px;border:0;">ELIMINAR</button>
+             </td>
+         </tr>
+            </table>
+    </form>
+    
+</div>
+
+        </section>
+    </body>
+    <footer id="footerh" style="background-color: #434343;"> 
+        <center><table border="0">
+            <tbody>
+            <tr>
+             <td colspan="3">
+                <h5 style="color:lightslategray;font-size: 30px;font-family: Yaldevi Colombo SemiBold Regular;text-align: center;">Sobre nosotros</h5>
+             </td>
+             <td><br></td>
+             <td><br></td>
+            </tr>
+            <tr>
+                <br>
+            </tr>
+            <tr>
+                <td colspan="3">
+             <h4 style="color:#FBFCFF;font-size: 20px;font-family: Yaldevi Colombo SemiBold Regular;text-align: center;">Integrantes</h4>
+                </td>
+            </tr>
+            <tr>
+               <td colspan="2" style="color:#6e8bff;font-size: 18px;font-family: Yaldevi Colombo SemiBold Regular;text-align: center;">
+                Juan Esteban Alarcón Miranda <br>
+                Camila Andrea Díaz Mojica <br>
+                María José Clavijo  <br>
+                Sebastián Medina
+               </td> 
+               <td>
+                   <br>
+               </td>
+               <td>
+                   <br>
+               </td>
+            </tr>
+            </tbody>
+         <tfoot>    
+          <td colspan="3" style="color:slategrey;font-size: 18px;font-family: Yaldevi Colombo SemiBold Regular;text-align: center;">
+        &copy; 2021 RunTech
+          </td>
+         </tfoot>
+        </table>
+        </footer>
+</html>
